@@ -1,29 +1,62 @@
-🎓 EduRev – Full Stack EdTech Platform
-EduRev is a full-stack web application designed to simplify online learning by allowing students to enroll in courses, instructors to manage and publish educational content, and admins to oversee the platform’s overall functionality.
+# 🎓 EduRev – Full Stack EdTech Platform
 
-💡 Project Overview
-This project aims to address key challenges in online education such as fragmented course delivery, lack of structured learning paths, and limited role-based access. EduRev offers a responsive and secure interface with modular course content and real-time user management.
+**EduRev** is a full-stack web application designed to simplify online learning by allowing students to enroll in courses, instructors to manage and publish educational content, and admins to oversee the platform’s overall functionality.
 
-✨ Features
-🧑‍🎓 Student Side
-Student registration and login
-Browse and enroll in courses
-Watch video lessons and track learning progress
-👨‍🏫 Instructor Side
-Instructor login and dashboard access
-Create, edit, and publish courses with videos
-Manage course modules and lessons
-🛡️ Admin Side
-Admin login with full platform control
-Manage user roles and monitor platform activity
-Approve/reject instructor-created content
-🔧 Tech Stack
-Frontend
-HTML
-Tailwind CSS
-React.js
-Backend
-Node.js
-Express.js
-MongoDB
-JWT Authentication
+---
+
+## 💡 Project Overview
+
+EduRev addresses key challenges in online education such as:
+
+- Fragmented course delivery
+- Lack of structured learning paths
+- Limited role-based access
+
+It offers a responsive, modular, and secure experience with real-time user management and role-based dashboards.
+
+---
+
+## ✨ Features
+
+### 🧑‍🎓 Student Panel
+- Student registration and login
+- Browse available courses
+- Enroll in courses
+- Watch video lessons
+- Track learning progress
+
+### 👨‍🏫 Instructor Panel
+- Instructor login and dashboard
+- Create, edit, and publish courses
+- Upload and manage video lessons
+- Organize content into modules
+
+### 🛡️ Admin Panel
+- Admin login with full platform control
+- Manage users and roles (students, instructors)
+- Approve or reject content submitted by instructors
+- Monitor platform activity and usage
+
+---
+
+## 🔧 Tech Stack
+
+### Frontend
+- HTML5
+- Tailwind CSS
+- React.js
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/EduRev-FullStack-EdTech.git
+cd EduRev-FullStack-EdTech
