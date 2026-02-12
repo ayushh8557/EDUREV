@@ -1,19 +1,152 @@
-Edurev – EdTech Learning Platform
+# Edurev - EdTech Learning Platform
+
 Edurev is a fully functional EdTech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
-Description
-Edurev aims to provide a seamless and interactive learning experience for students, making education more accessible and engaging. The platform allows learners to explore a wide range of courses, enroll in programs, track their progress, and rate content based on their experience.
-At the same time, Edurev serves as a powerful platform for instructors to showcase their expertise, create structured courses, upload multimedia content, and connect with students across the globe.
-The platform follows a client-server architecture:
-The front-end is built using ReactJS with modern UI tools like Tailwind CSS and Redux for state management, ensuring a dynamic and responsive user experience.
-The back-end is developed using NodeJS and ExpressJS, providing secure RESTful APIs for authentication, course management, and user interactions.
-The database uses MongoDB to efficiently store user data, course details, and platform-related information.
-Key Features
-User Authentication with JWT and password encryption using Bcrypt
-OTP verification and forgot password functionality
-Course creation, management, and rating system
-Secure payment integration for course enrollment
-Cloud-based media management for storing images and videos
-Markdown-based course content formatting
-Instructor dashboard with insights and analytics
-Student wishlist, cart, and personalized profile management
-Edurev is designed to deliver a scalable, secure, and user-friendly learning environment, empowering both students and instructors in the digital education ecosystem.
+
+---
+
+## 📌 Introduction
+
+Edurev aims to provide a seamless and interactive learning experience for students, making education more accessible and engaging. The platform allows learners to explore courses, enroll in programs, track their progress, and rate content.
+
+It also provides instructors with tools to create and manage courses, upload multimedia content, and analyze course performance.
+
+---
+
+## 🏗 System Architecture
+
+Edurev follows a client-server architecture consisting of three main components:
+
+### 1️⃣ Front-End
+- Built using **ReactJS**
+- Styled with **Tailwind CSS**
+- State management using **Redux**
+- Communicates with backend using REST APIs
+
+#### Student Features:
+- Homepage
+- Course List
+- Wishlist
+- Cart & Checkout
+- Course Content Access
+- Profile Management
+
+#### Instructor Features:
+- Dashboard
+- Course Creation & Management
+- Insights & Analytics
+- Profile Editing
+
+---
+
+### 2️⃣ Back-End
+- Built using **NodeJS** and **ExpressJS**
+- RESTful API architecture
+- Handles authentication, course logic, and payments
+
+#### Back-End Features:
+- JWT-based Authentication
+- OTP Verification
+- Forgot Password Functionality
+- Course CRUD Operations
+- Razorpay Payment Integration
+- Cloudinary Media Storage
+- Markdown Content Support
+
+---
+
+### 3️⃣ Database
+- **MongoDB** (NoSQL Database)
+- Managed using **Mongoose ODM**
+
+#### Main Data Models:
+- Student Schema
+- Instructor Schema
+- Course Schema
+
+---
+
+## 🔌 API Design
+
+- REST Architecture
+- JSON Data Format
+- HTTP Methods Used:
+  - GET
+  - POST
+  - PUT
+  - DELETE
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone <repository-url>
+cd Edurev
+npm install
+```
+
+---
+
+## 🔐 Configuration
+
+Create a `.env` file in the root directory and add:
+
+```
+MONGODB_URI=<your-mongodb-connection-url>
+JWT_SECRET=<your-jwt-secret-key>
+```
+
+---
+
+## ▶️ Usage
+
+Start the backend server:
+
+```bash
+npm start
+```
+
+Start the frontend:
+
+```bash
+cd client
+npm start
+```
+
+Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🚀 Key Features
+
+- Secure Authentication & Authorization
+- Course Creation & Enrollment
+- Instructor Dashboard & Insights
+- Secure Online Payments
+- Cloud Media Storage
+- Scalable MERN Stack Architecture
+
+---
+
+## 📚 Tech Stack
+
+- ReactJS
+- NodeJS
+- ExpressJS
+- MongoDB
+- Redux
+- Tailwind CSS
+- JWT
+- Bcrypt
+- Razorpay
+- Cloudinary
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
